@@ -1,0 +1,9 @@
+@media (min-width: 990px) {
+    .contenido {
+        width: 30%;
+    }
+    .contenido:last-child {
+        width: 30%;
+        border-left: 6px solid blue;
+    }
+}

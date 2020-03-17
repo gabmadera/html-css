@@ -1,0 +1,27 @@
+/* Las variables se dan en $ */
+/* $variable: oeHFGOHWh */
+body {
+  padding: 200px;
+}
+
+.contenedor {
+  color: blue;
+}
+
+.contenedor h1 {
+  color: orange;
+  font-size: 3rem;
+  text-decoration: underline;
+  -webkit-transition: all 6s;
+  transition: all 6s;
+}
+
+.contenedor h1:hover {
+  -webkit-transform: rotatey(360deg);
+          transform: rotatey(360deg);
+  -webkit-transform-origin: 20%;
+          transform-origin: 20%;
+}
+
+/* Los mixing estan super utiles. */
+/*# sourceMappingURL=style.css.map */

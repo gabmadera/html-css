@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    width: 100%;
+}
+.b-grid {
+    display: grid;
+    grid-template-columns: 50px 250px 250px 50px;
+    grid-template-rows: 100px 500px 100px;
+    background-color: #fff;
+    color: #444;
+    margin-bottom: 24px;
+    grid-gap: 10px 5px;
+}
+
+/* .b-grid {
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-rows: 15% 70% 15%;
+    background-color: #fff;
+    color: #444;
+    grid-gap: 2px 2px;
+    height: 100vh;
+    
+}
+ */
+.b-grid__item {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.b-grid__item--b {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    color: blue;
+    background-color: blue;
+}
+.b-grid__item--e {
+    grid-column: 2/ 4;
+    grid-row: 2 / 3;
+}
+/*bem
+can i use, pagina util.
+*/
+
+.b-grid--b {
+    display: grid;
+    grid-template-columns: 50px 250px 250px 50px;
+    grid-template-rows: 100px 500px 100px;
+    grid-template-areas: 
+    "menu header header1 tools"
+    "sidebar main sidebar1"
+    "footer footera footerb footerc" ;
+}
+
+.b-grid--b__item {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    font-size: 150%;
+}
+.b-grid--b__item--menu {
+    grid-area: menu;
+}
+.b-grid--b__item--header {
+    grid-area: header;
+}
+.b-grid--b__item--tools {
+    grid-area: tools;
+}
+.b-grid--b__item--sidebar {
+    grid-area: sidebar;
+}
+.b-grid--b__item--main {
+    grid-area: main;
+}
+.b-grid--b__item--sidebar1 {
+    grid-area: sidebar1;
+}
+.b-grid--b__item--footer {
+    grid-area: footer;
+}
+.b-grid--b__item--footera {
+    grid-area: footera;
+}
+.b-grid--b__item--footerb {
+    grid-area: footerb;
+}
+.b-grid--b__item--footerc {
+    grid-area: footerc;
+}

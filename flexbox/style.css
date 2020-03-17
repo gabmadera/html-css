@@ -1,0 +1,28 @@
+.contenedor {
+    background-color: blue;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Display flex me ayuda a hacerlo todo mas facil,
+    luego debo condicionar con los direction, wrap, align y eso */ 
+}
+
+.contenido {
+    height: 100px;
+    width: 100px;
+    min-width: 100px;
+    max-width: 300px;
+    background-color: red;
+
+}
+.orden {
+    order: -1;
+    flex-grow: 2;
+    /* esto me ayuda a dar prioridad de mostrar los contenidos, 
+    mayor numero es igual a menor prioridad */
+}
+
+

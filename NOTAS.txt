@@ -1,0 +1,25 @@
+los SVG pueden colocarse como imagenes en los html
+en CSS podemos colocarlo como ruta
+en HTML tambien podemos colocarlo con la etiqueta svg.
+
+
+
+                        BOOSTRAPS
+Bootstraps pueden ser utiles pero cuando es front puede ser 
+no recomendable
+
+        Se basa en un layout de 12 columnas
+        Tambien tienen media queries para responsive
+
+
+                TRANSICIONES Y ANIMACIONES:
+
+transition
+animation
+
+Cada una tiene un pocoton de parametros.
+
+
+------> CUBIC BEZIER <--------
+transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1)
+esto en lugar de ease y lo demas, para definir propia curva

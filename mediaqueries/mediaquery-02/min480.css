@@ -1,0 +1,17 @@
+@media  (min-width: 480px) and (max-width: 989px) {
+    .contenido {
+        width: 50%;
+        float: left;
+    }
+    .contenido:last-child {
+        width: 100%;
+        background-color: rgb(176, 235, 217);
+    }
+    .contenido:nth-child(1) {
+        border-right: 3px solid blue;
+    }
+    .contenido:nth-child(2) {
+        border-left: 3px solid blue;
+    }
+    
+}

@@ -1,0 +1,55 @@
+@import 'reset.css';
+
+*::before::after {
+    box-sizing: border-box;
+}
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 104, 206);
+    color: azure;
+    margin-bottom: 1px;
+    height: 48px;
+    padding: 0 .5rem .5rem;
+    overflow: hidden;
+    transition: height ease-in-out .8s;
+    border-bottom: 1px solid rgb(34, 63, 124);
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+}
+#menu {
+    display: none;
+}
+#menu:checked+header {
+    height: 80px;
+}
+.nombre {
+    margin: .5rem 0;
+}
+.icono {
+    position: absolute;
+    cursor: pointer;
+    right: 0.3rem;
+    top: 0.7rem;
+    font-size: 2rem;
+}
+.menu_nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3px 0;
+}
+.item {
+    padding: 2px;
+}
+
+@media  (min-width: 480px) and (max-width: 989px) {
+    
+}

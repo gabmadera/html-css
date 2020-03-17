@@ -1,0 +1,27 @@
+/* Las variables se dan en $ */
+/* $variable: oeHFGOHWh */
+@import 'variable.scss';
+@mixin primary-title {
+    color: orange;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+@mixin rotacion {
+    transform: rotatey(360deg);
+    transform-origin: 20%;
+}
+body {
+    padding: 200px;
+}
+.contenedor{
+    color: $primary-color;
+    h1 {
+        @include primary-title;
+        transition: all 6s;
+        &:hover {
+            @include rotacion;
+        }
+    }
+}
+
+/* Los mixing estan super utiles. */

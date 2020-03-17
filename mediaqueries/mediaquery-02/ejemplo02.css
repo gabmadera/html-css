@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    overflow: hidden;
+
+}
+.contenido {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(123, 199, 235);
+    margin-top: 2rem;
+
+}
+
+/*MEDIA QUERIES SON MUY IMPORTANTES, SON EL BREAKPOINT QUE ME PERMITE SOBREESCRIBIR
+REGLAS PARA CORREGIR INSTANCIAS ESPECIFICAS*/
+

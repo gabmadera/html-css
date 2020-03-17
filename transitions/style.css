@@ -1,0 +1,53 @@
+/* div {
+    box-sizing: border-box;
+    color: azure;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(59, 99, 172);
+    text-align: center;
+    padding-top: 38px;
+    transition: width 2s, height 2s, padding 2s;
+    transition-timing-function: cubic-bezier(0,.36,1,.07);
+} */
+
+main {
+    height: 100vh;
+}
+
+div {
+    position: relative;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    color: azure;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(59, 99, 172);
+    text-align: center;
+    padding-top: 38px;
+    transition: left .5s ease-out, width .5s .5s ease-out, top .5s 1s ease-out;    
+}
+
+main:hover>div {
+    background-color: rgb(99, 25, 236); 
+    color: chocolate;
+    left: 100px;
+    width: 200px;
+    top: 100px;
+}
+
+
+/* div:hover {
+    background-color: rgb(99, 25, 236); 
+    color: chocolate;
+    width: 200px;
+    height: 200px;
+    padding-top: 76px;
+} */
+
+
+
+/* para el hover son dos puntos */
+
+
+/* Transition es: normal delay timing 0 1 1 por ejemplo */
